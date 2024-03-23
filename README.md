@@ -1,4 +1,4 @@
-        Proyecto de Web Scraping
+## Proyecto de Web Scraping
 
 Este proyecto consta de varios scripts en Python diseñados para extraer información de la web utilizando técnicas de web scraping. Los scripts recopilan datos de productos de computación de Mercado Libre, ya sea utilizando BeautifulSoup y lxml para analizar el HTML de las páginas web o mediante el uso de su API.
 Archivos del Proyecto
