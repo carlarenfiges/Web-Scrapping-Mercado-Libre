@@ -30,6 +30,18 @@ Este script recopila datos sobre computadores y guarda los resultados en computa
 3. computadorAPI.py:
 
 Este script inicia la API que proporciona acceso a los datos sobre productos de computación.
+# Uso de la API
+
+Puedes interactuar con la API para obtener datos sobre productos de computación en Mercado Libre. La API proporciona dos endpoints:
+
+Este endpoint permite obtener datos sobre productos de Mercado Libre. Puedes enviar una solicitud GET a este endpoint con el siguiente cuerpo:
+
+```json
+{
+  "producto": "nombre_del_producto",
+  "limite": "cantidad_de_productos_a_mostrar (opcional)"
+}
+
 
 ## Dependencias
 
