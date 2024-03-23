@@ -17,19 +17,6 @@ Funciones Auxiliares (functions.py)
 
 Este archivo contiene funciones auxiliares utilizadas en los scripts de web scraping. Incluye funciones para recopilar todos los productos disponibles o para limitar el número de productos extraídos según una cantidad específica.
 
-## Uso
-
-1. pcGamer.py:
-
-Este script recopila datos sobre PC de escritorio y guarda los resultados en pc_mercado_libre.csv.
-
-2. computador.py:
-
-Este script recopila datos sobre computadores y guarda los resultados en computador_mercado_libre.csv.
-
-3. computadorAPI.py:
-
-Este script inicia la API que proporciona acceso a los datos sobre productos de computación.
 # Uso de la API
 
 Puedes interactuar con la API para obtener datos sobre productos de computación en Mercado Libre. La API proporciona dos endpoints:
