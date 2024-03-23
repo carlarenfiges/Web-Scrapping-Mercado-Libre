@@ -2,13 +2,15 @@
 
 Este proyecto consta de varios scripts en Python diseñados para extraer información de la web utilizando técnicas de web scraping. Los scripts recopilan datos de productos de computación de Mercado Libre, ya sea utilizando BeautifulSoup y lxml para analizar el HTML de las páginas web o mediante el uso de su API.
 Archivos del Proyecto
-1. pcGamer.py
+# 1. pcGamer.py
 
 Este script extrae información sobre las PC de escritorio disponibles en Mercado Libre. Recopila títulos, URLs y precios de los productos y guarda los datos en un archivo CSV llamado pc_mercado_libre.csv.
-2. computador.py
+
+# 2. computador.py
 
 Este script recopila información sobre los computadores disponibles en Mercado Libre. Al igual que el anterior, extrae títulos, URLs y precios de los productos, y guarda los datos en un archivo CSV llamado computador_mercado_libre.csv.
-3. computadorAPI.py
+
+# 3. computadorAPI.py
 
 Este script implementa una API simple utilizando Flask. Proporciona endpoints para acceder a los datos recopilados sobre productos de computación en Mercado Libre.
 Funciones Auxiliares (functions.py)
