@@ -36,12 +36,11 @@ Puedes interactuar con la API para obtener datos sobre productos de computación
 
 Este endpoint permite obtener datos sobre productos de Mercado Libre. Puedes enviar una solicitud GET a este endpoint con el siguiente cuerpo:
 
-```json
+** json **
 {
   "producto": "nombre_del_producto",
   "limite": "cantidad_de_productos_a_mostrar (opcional)"
 }
-
 
 ## Dependencias
 
