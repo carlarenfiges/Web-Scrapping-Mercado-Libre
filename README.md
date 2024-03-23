@@ -1,4 +1,4 @@
-## Proyecto de Web Scraping
+# Proyecto de Web Scraping
 
 Este proyecto consta de varios scripts en Python diseñados para extraer información de la web utilizando técnicas de web scraping. Los scripts recopilan datos de productos de computación de Mercado Libre, ya sea utilizando BeautifulSoup y lxml para analizar el HTML de las páginas web o mediante el uso de su API.
 Archivos del Proyecto
@@ -16,33 +16,22 @@ Este script implementa una API simple utilizando Flask. Proporciona endpoints pa
 Funciones Auxiliares (functions.py)
 
 Este archivo contiene funciones auxiliares utilizadas en los scripts de web scraping. Incluye funciones para recopilar todos los productos disponibles o para limitar el número de productos extraídos según una cantidad específica.
-Uso
 
-    pcGamer.py:
+## Uso
 
-    bash
-
-python pcGamer.py
+1. pcGamer.py:
 
 Este script recopila datos sobre PC de escritorio y guarda los resultados en pc_mercado_libre.csv.
 
-computador.py:
-
-bash
-
-python computador.py
+2. computador.py:
 
 Este script recopila datos sobre computadores y guarda los resultados en computador_mercado_libre.csv.
 
-computadorAPI.py:
+3. computadorAPI.py:
 
-bash
+Este script inicia la API que proporciona acceso a los datos sobre productos de computación.
 
-    python computadorAPI.py
-
-    Este script inicia la API que proporciona acceso a los datos sobre productos de computación.
-
-Dependencias
+## Dependencias
 
     requests
     BeautifulSoup
